@@ -1,8 +1,15 @@
+#main {
+   width: 1375px;
+   height: 650px;
+   border: 3px solid black;
+   background-color: #0e377a;
+}
+
 #goBox {
-   width: 1114px;
+   width: 1110px;
    height: 100px;
    border: 5px solid black;
-   background-color: yellow;
+   background-color: #e2df16;
    display: block;
    margin-left: 125px;
    margin-top: 75px;
@@ -15,23 +22,31 @@
    background-color: green;
    display: inline-block;
    margin-left: 125px;
+   float: left;
+   text-align: center;
+   text-size: 20px;
 }
 
 #choiceBox {
    width: 300px;
-   height: 400px;
+   height: 350px;
    border: 5px solid black;
-   background-color: red;
+   background-color: #d81515;
    display: inline-block;
+   float: left;
+   padding-top: 50px;
 }
 
 .drop {
-   margin-left: 110px;
+   margin-left: 100px;
+   background-color: #f2eded;
+   font-size: 20px;
+   ;
 }
 
 .btn {
    border: 7px solid black;
-   background-color: gray;
+   background-color: #1c8faf;
    color: black;
    padding: 14px 28px;
    font-size: 22px;
@@ -39,3 +54,14 @@
    margin-left: 485px;
    margin-top: 15px;
 }
+
+img {
+   height: 175px;
+   margin: 10px 20px 0px 20px;
+}
+
+#box1 {}
+
+/*#drop {
+   -webkit-appearance: none;
+}*/
