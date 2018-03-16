@@ -24,3 +24,18 @@
    background-color: red;
    display: inline-block;
 }
+
+.drop {
+   margin-left: 110px;
+}
+
+.btn {
+   border: 7px solid black;
+   background-color: gray;
+   color: black;
+   padding: 14px 28px;
+   font-size: 22px;
+   cursor: pointer;
+   margin-left: 485px;
+   margin-top: 15px;
+}
